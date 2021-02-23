@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" type="image/png" href="{% static 'images/favicon.ico' %}"/>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    {% block extra_head %}
+    {% endblock extra_head %}
+
+    <title>{% block title %}Главная{% endblock %}</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">LOGO</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="/">Главная</a></li>
+                    <li><a href="/about/">О нас</a></li>
+                    <li><a href="/create/">Добавить</a></li>
+                    <li><a href="/contacts/">Контакты</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}
+        {% endblock %}
+
+    </main>
+    <footer>
+        <script src="{% static 'js/bootstrap.js' %}"></script>
+        <script src="{% static 'js/salvattore.min.js' %}"></script>
+    </footer>
+    </div>
+</body>
+</html>

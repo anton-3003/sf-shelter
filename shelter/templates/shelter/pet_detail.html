@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block title %}{{ pet.name }}{% endblock%}
+
+{% block content %}
+<!--    <form method="post">-->
+<!--        {% csrf_token %}-->
+<!--        <table>-->
+<!--            {{ form }}-->
+<!--        </table>-->
+<!--        <p>-->
+<!--        <input type="submit" style="margin: 10px 0px 0px 200px;"-->
+<!--               value="Сохранить" class="btn btn-primary">-->
+<!--        </p>-->
+<!--    </form>-->
+<!--    <form action="delete/" style="margin: 10px 0px 0px 200px;">-->
+<!--        <button class="btn btn-danger">Удалить</button>-->
+<!--    </form>-->
+
+<div class="container">
+    <h4>{{ pet.name }}</h4>
+    <div class="col-md-2">
+        <p>Вид:</p>
+        <p>Пол:</p>
+        <p>Порода:</p>
+        <p>Окрас:</p>
+        <p>Возраст:</p>
+        <p>Дата поступления:</p>
+        <p>О питомце:</p></div>
+    <div class="col-md-2">
+        <p>{{ pet.pet_type }}</p>
+        <p>{{ pet.gender }}</p>
+        <p>{{ pet.breed }}</p>
+        <p>{{ pet.color }}</p>
+        <p>{{ pet.age }}</p>
+        <p>{{ pet.date_of_entry }}</p>
+        <p>{{ pet.about }}</p>
+    </div>
+    <div class="col-md-2">
+        <img src="/media/{{ pet.avatar }}" alt="{{ pet.name }}" class="img-detail" style="width:150%">
+    </div>
+</div>
+
+{% endblock %}
+
+

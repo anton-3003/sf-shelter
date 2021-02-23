@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block title %}Главная{% endblock %}
+
+{% block content %}
+
+    <h2>Питомцы</h2>
+
+    <div class="row pet-board">
+        {% for pet in pets %}
+        
+		<div class="pet-card">
+			<a href="pet/{{ pet.id }}/detail/" style="text-decoration: none;">
+				<div class="pet-avatar card-image-top">
+					<img src="/media/{{ pet.avatar }}" alt="{{ pet.name }}" width="250" height="250">
+				</div>
+				<div class="pet-text">
+					<h4>{{ pet.name }}</h4>
+					<p>Lorem ipsum dolor sit amet.</p>
+				</div>
+			</a>
+		</div>
+        
+    	{% endfor%}
+    </div>
+
+{% endblock %}

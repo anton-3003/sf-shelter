@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content %}
+
+<div class="container">
+    <h4>Свяжитесь с нами</h4>
+    <div class="col-md-2">
+        <p>Телефон:</p>
+        <p>Эл. почта:</p>
+        <p>Адрес:</p>
+    </div>
+    <div class="col-md-4">
+        <p><a href="tel: {{ phone_number }}">{{ phone_number }}</a></p>
+        <p><a href="mailto: {{e_mail}}">{{ e_mail }}</a></p>
+        <p>{{ address }}</p>
+    </div>
+</div>
+
+{% endblock %}

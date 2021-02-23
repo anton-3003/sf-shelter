@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Добавление питомца{% endblock %}
+
+{% block content %}
+
+<div class="container">
+    <h4>Форма добавления питомца</h4>
+
+    <form method="post">
+        <div class="form-group">
+            <table>
+                {% csrf_token %}
+                {{ form.as_table }}
+            </table>
+        </div>
+    <input type="submit" class="btn btn-primary" value="Сохранить">
+    </form>
+</div>
+
+
+{% endblock %}
