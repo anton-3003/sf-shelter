@@ -1,0 +1,92 @@
+[
+	{
+		"model": "shelter.pet",
+		"pk": 1,
+		"fields": {
+			"pet_type": "Кошка",
+			"name": "Паскаль",
+			"gender": "мальчик",
+			"breed": "Беспородный",
+			"color": "Рыже-белый",
+			"avatar": "images/2.jpeg",
+			"age": 2,
+			"date_of_entry": "2021-02-21",
+			"about": ""
+		}
+	},
+	{
+		"model": "shelter.pet",
+		"pk": 3,
+		"fields": {
+			"pet_type": "Кошка",
+			"name": "Рыжик",
+			"gender": "мальчик",
+			"breed": "Беспородный",
+			"color": "Огненный",
+			"avatar": "images/1_yQGLqk3.jpeg",
+			"age": 3,
+			"date_of_entry": "2021-02-21",
+			"about": ""
+		}
+	},
+	{
+		"model": "shelter.pet",
+		"pk": 4,
+		"fields": {
+			"pet_type": "Попугай",
+			"name": "Кеша",
+			"gender": "мальчик",
+			"breed": "Волнистый",
+			"color": "Голубой",
+			"avatar": "images/blue_parrot.jpg",
+			"age": 1,
+			"date_of_entry": "2021-01-05",
+			"about": ""
+		}
+	},
+	{
+		"model": "shelter.pet",
+		"pk": 5,
+		"fields": {
+			"pet_type": "Кошка",
+			"name": "Муся",
+			"gender": "девочка",
+			"breed": "Беспородный",
+			"color": "Белый",
+			"avatar": "images/musya.jpg",
+			"age": 1,
+			"date_of_entry": "2021-02-22",
+			"about": ""
+		}
+	},
+	{
+		"model": "shelter.pet",
+		"pk": 6,
+		"fields": {
+			"pet_type": "Собака",
+			"name": "Лайма",
+			"gender": "девочка",
+			"breed": "Овчарка",
+			"color": "Черно-желтый",
+			"avatar": "images/Laima.png",
+			"age": 1,
+			"date_of_entry": "2021-02-22",
+			"about": ""
+		}
+	},
+	{
+		"model": "shelter.pet",
+		"pk": 7,
+		"fields": {
+			"pet_type": "Попугай",
+			"name": "Мася",
+			"gender": "девочка",
+			"breed": "Волнистый",
+			"color": "Желтый",
+			"avatar": "images/yellow_parrot.jpg",
+			"age": 1,
+			"date_of_entry": "2021-02-22",
+			"about": "Веселая, звонкая девочка"
+		}
+	}
+]
