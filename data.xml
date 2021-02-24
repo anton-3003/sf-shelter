@@ -1,2 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<django-objects version="1.0"><object model="shelter.pet" pk="1"><field name="pet_type" type="CharField">Кошка</field><field name="name" type="CharField">Паскаль</field><field name="gender" type="CharField">мальчик</field><field name="breed" type="CharField">Беспородный</field><field name="color" type="CharField">Рыже-белый</field><field name="avatar" type="FileField">images/2.jpeg</field><field name="age" type="SmallIntegerField">2</field><field name="date_of_entry" type="DateField">2021-02-21</field><field name="about" type="TextField"></field></object><object model="shelter.pet" pk="3"><field name="pet_type" type="CharField">Кошка</field><field name="name" type="CharField">Рыжик</field><field name="gender" type="CharField">мальчик</field><field name="breed" type="CharField">Беспородный</field><field name="color" type="CharField">Огненный</field><field name="avatar" type="FileField">images/1_yQGLqk3.jpeg</field><field name="age" type="SmallIntegerField">3</field><field name="date_of_entry" type="DateField">2021-02-21</field><field name="about" type="TextField"></field></object><object model="shelter.pet" pk="4"><field name="pet_type" type="CharField">Попугай</field><field name="name" type="CharField">Кеша</field><field name="gender" type="CharField">мальчик</field><field name="breed" type="CharField">Волнистый</field><field name="color" type="CharField">Голубой</field><field name="avatar" type="FileField">images/blue_parrot.jpg</field><field name="age" type="SmallIntegerField">1</field><field name="date_of_entry" type="DateField">2021-01-05</field><field name="about" type="TextField"></field></object><object model="shelter.pet" pk="5"><field name="pet_type" type="CharField">Кошка</field><field name="name" type="CharField">Муся</field><field name="gender" type="CharField">девочка</field><field name="breed" type="CharField">Беспородный</field><field name="color" type="CharField">Белый</field><field name="avatar" type="FileField">images/musya.jpg</field><field name="age" type="SmallIntegerField">1</field><field name="date_of_entry" type="DateField">2021-02-22</field><field name="about" type="TextField"></field></object><object model="shelter.pet" pk="6"><field name="pet_type" type="CharField">Собака</field><field name="name" type="CharField">Лайма</field><field name="gender" type="CharField">девочка</field><field name="breed" type="CharField">Овчарка</field><field name="color" type="CharField">Черно-желтый</field><field name="avatar" type="FileField">images/Laima.png</field><field name="age" type="SmallIntegerField">1</field><field name="date_of_entry" type="DateField">2021-02-22</field><field name="about" type="TextField"></field></object><object model="shelter.pet" pk="7"><field name="pet_type" type="CharField">Попугай</field><field name="name" type="CharField">Мася</field><field name="gender" type="CharField">девочка</field><field name="breed" type="CharField">Волнистый</field><field name="color" type="CharField">Желтый</field><field name="avatar" type="FileField">images/yellow_parrot.jpg</field><field name="age" type="SmallIntegerField">1</field><field name="date_of_entry" type="DateField">2021-02-22</field><field name="about" type="TextField">Веселая, звонкая девочка</field></object></django-objects>
+<django-objects version="1.0">
+	<object model="shelter.pet" pk="1">
+		<field name="pet_type" type="CharField">РљРѕС€РєР°</field>
+		<field name="name" type="CharField">РџР°СЃРєР°Р»СЊ</field>
+		<field name="gender" type="CharField">РјР°Р»СЊС‡РёРє</field>
+		<field name="breed" type="CharField">Р‘РµСЃРїРѕСЂРѕРґРЅС‹Р№</field>
+		<field name="color" type="CharField">Р С‹Р¶Рµ-Р±РµР»С‹Р№</field>
+		<field name="avatar" type="FileField">images/2.jpeg</field>
+		<field name="age" type="SmallIntegerField">2</field>
+		<field name="date_of_entry" type="DateField">2021-02-21</field>
+		<field name="about" type="TextField"></field>
+	</object>
+	<object model="shelter.pet" pk="3">
+		<field name="pet_type" type="CharField">РљРѕС€РєР°</field>
+		<field name="name" type="CharField">Р С‹Р¶РёРє</field>
+		<field name="gender" type="CharField">РјР°Р»СЊС‡РёРє</field>
+		<field name="breed" type="CharField">Р‘РµСЃРїРѕСЂРѕРґРЅС‹Р№</field>
+		<field name="color" type="CharField">РћРіРЅРµРЅРЅС‹Р№</field>
+		<field name="avatar" type="FileField">images/1_yQGLqk3.jpeg</field>
+		<field name="age" type="SmallIntegerField">3</field>
+		<field name="date_of_entry" type="DateField">2021-02-21</field>
+		<field name="about" type="TextField"></field>
+	</object>
+	<object model="shelter.pet" pk="4">
+		<field name="pet_type" type="CharField">РџРѕРїСѓРіР°Р№</field>
+		<field name="name" type="CharField">РљРµС€Р°</field>
+		<field name="gender" type="CharField">РјР°Р»СЊС‡РёРє</field>
+		<field name="breed" type="CharField">Р’РѕР»РЅРёСЃС‚С‹Р№</field>
+		<field name="color" type="CharField">Р“РѕР»СѓР±РѕР№</field>
+		<field name="avatar" type="FileField">images/blue_parrot.jpg</field>
+		<field name="age" type="SmallIntegerField">1</field>
+		<field name="date_of_entry" type="DateField">2021-01-05</field>
+		<field name="about" type="TextField"></field>
+	</object>
+	<object model="shelter.pet" pk="5">
+		<field name="pet_type" type="CharField">РљРѕС€РєР°</field>
+		<field name="name" type="CharField">РњСѓСЃСЏ</field>
+		<field name="gender" type="CharField">РґРµРІРѕС‡РєР°</field>
+		<field name="breed" type="CharField">Р‘РµСЃРїРѕСЂРѕРґРЅС‹Р№</field>
+		<field name="color" type="CharField">Р‘РµР»С‹Р№</field>
+		<field name="avatar" type="FileField">images/musya.jpg</field>
+		<field name="age" type="SmallIntegerField">1</field>
+		<field name="date_of_entry" type="DateField">2021-02-22</field>
+		<field name="about" type="TextField"></field>
+	</object>
+	<object model="shelter.pet" pk="6">
+		<field name="pet_type" type="CharField">РЎРѕР±Р°РєР°</field>
+		<field name="name" type="CharField">Р›Р°Р№РјР°</field>
+		<field name="gender" type="CharField">РґРµРІРѕС‡РєР°</field>
+		<field name="breed" type="CharField">РћРІС‡Р°СЂРєР°</field>
+		<field name="color" type="CharField">Р§РµСЂРЅРѕ-Р¶РµР»С‚С‹Р№</field>
+		<field name="avatar" type="FileField">images/Laima.png</field>
+		<field name="age" type="SmallIntegerField">1</field>
+		<field name="date_of_entry" type="DateField">2021-02-22</field>
+		<field name="about" type="TextField"></field>
+	</object>
+	<object model="shelter.pet" pk="7">
+		<field name="pet_type" type="CharField">РџРѕРїСѓРіР°Р№</field>
+		<field name="name" type="CharField">РњР°СЃСЏ</field>
+		<field name="gender" type="CharField">РґРµРІРѕС‡РєР°</field>
+		<field name="breed" type="CharField">Р’РѕР»РЅРёСЃС‚С‹Р№</field>
+		<field name="color" type="CharField">Р–РµР»С‚С‹Р№/field>
+		<field name="avatar" type="FileField">images/yellow_parrot.jpg</field>
+		<field name="age" type="SmallIntegerField">1</field>
+		<field name="date_of_entry" type="DateField">2021-02-22</field>
+		<field name="about" type="TextField">Г‚ГҐГ±ГҐГ«Г Гї, Г§ГўГ®Г­ГЄГ Гї Г¤ГҐГўГ®Г·ГЄГ </field>
+	</object>
+</django-objects>
