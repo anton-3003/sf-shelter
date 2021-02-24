@@ -10,7 +10,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-# SECRET_KEY = '7#7dz67!fa1ktf5%uf3#h5mh@!&uhiwt_n7@524f*%+lj9$tog'
+
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 
@@ -18,7 +18,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'https://limitless-chamber-46257.herokuapp.com/'
+    'https://sf-shelter.herokuapp.com/'
 ]
 
 
