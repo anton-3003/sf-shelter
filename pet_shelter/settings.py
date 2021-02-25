@@ -11,15 +11,17 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-
-SECRET_KEY = os.environ.get('SECRET_KEY')
+SECRET_KEY = '7#7dz67!fa1ktf5%uf3#h5mh@!&uhiwt_n7@524f*%+lj9$tog'
+# SECRET_KEY = os.environ.get('SECRET_KEY')
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'https://quiet-depths-92525.herokuapp.com/'
+    'https://quiet-depths-92525.herokuapp.com/',
+    '127.0.0.1',
+    'localhost',
 ]
 
 
@@ -72,20 +74,20 @@ WSGI_APPLICATION = 'pet_shelter.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': 'shelter',
-#         'USER': 'postgres',
-#         'PASSWORD': '******',
-#         'HOST': 'localhost',
-#         'PORT': '5432',
-#     }
-# }
 DATABASES = {
-    'default':
-        dj_database_url.config(default=os.environ.get('DATABASE_URL'))
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'shelter',
+        'USER': 'postgres',
+        'PASSWORD': '300386',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
 }
+# DATABASES = {
+#     'default':
+#         dj_database_url.config(default=os.environ.get('DATABASE_URL'))
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
